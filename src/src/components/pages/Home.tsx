@@ -1,5 +1,5 @@
 import { FC } from 'react';
-import { HomeContainer, HomeTitle, HomeSubtitle, HomeTagline } from './Styles';
+import { HomeContainer, HomeTitle, HomeSubtitle, HomeTagline } from '../Styles';
 
 const Home: FC = () => {
   return (

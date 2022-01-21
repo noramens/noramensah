@@ -5,8 +5,8 @@ import {
   AboutSubtitle,
   Paragraph,
   ReadMore
-} from './Styles';
-import { blogs } from '../helpers/constants';
+} from '../Styles';
+import { blogs } from '../../helpers/constants';
 
 const Blog: FC = () => {
   return (
