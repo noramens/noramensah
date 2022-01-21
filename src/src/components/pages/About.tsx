@@ -7,7 +7,7 @@ import {
   ImageWrapper,
   AboutSubtitle,
   img
-} from './Styles';
+} from '../Styles';
 
 const About: FC = () => {
   return (
@@ -97,7 +97,7 @@ const About: FC = () => {
           />
         </ImageWrapper>
 
-        <AboutSubtitle>What do I plan to do this year?</AboutSubtitle>
+        <AboutSubtitle>What I plan to do this year</AboutSubtitle>
         <Paragraph>
           Write more on my blog about React, what I wish I knew when I started
           learning how to code, everything sharable😅. I would try to also give
@@ -105,9 +105,9 @@ const About: FC = () => {
           trying to get into tech.
         </Paragraph>
 
-        <AboutSubtitle>What do I do when I’m not coding?</AboutSubtitle>
+        <AboutSubtitle>What do I for fun</AboutSubtitle>
         <Paragraph>
-          I love to write about anything for my future self or others. Check out
+          I love to write about anything for my future self or others. Check out{' '}
           <ParagraphLinks
             href="https://medium.com/@noramens_/about"
             target="_blank"

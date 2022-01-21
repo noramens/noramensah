@@ -1,6 +1,6 @@
 import { FC } from 'react';
-import { Container, Nav, NavLinkText } from './Styles';
-import { navItems } from '../helpers/constants';
+import { Container, Nav, NavLinkText } from '../Styles';
+import { navItems } from '../../helpers/constants';
 
 const Header: FC = () => {
   return (

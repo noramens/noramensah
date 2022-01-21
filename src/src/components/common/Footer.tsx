@@ -1,7 +1,7 @@
 import { FC } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { socialMedia } from '../helpers/constants';
-import { SocialLink, FooterWeapons } from './Styles';
+import { socialMedia } from '../../helpers/constants';
+import { SocialLink, FooterWeapons } from '../Styles';
 
 const Footer: FC = () => {
   return (
