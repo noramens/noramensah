@@ -5,7 +5,7 @@ import { SocialLink, FooterWeapons } from '../Styles';
 
 const Footer: FC = () => {
   return (
-    <FooterWeapons>
+    <FooterWeapons data-testid="footer-weapons">
       <div style={{ flexDirection: 'row' }}>
         {socialMedia.map(media => (
           <SocialLink

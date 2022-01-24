@@ -8,21 +8,25 @@ export const socialMedia: {
   id: number;
   url: string;
   icon: any;
+  'data-testid': string;
 }[] = [
   {
     id: 0,
     url: 'https://www.linkedin.com/in/noramensah',
-    icon: faLinkedin
+    icon: faLinkedin,
+    'data-testid': 'LinkedIn'
   },
   {
     id: 1,
     url: 'https://github.com/noramens',
-    icon: faGithub
+    icon: faGithub,
+    'data-testid': 'Github'
   },
   {
     id: 2,
     url: 'https://twitter.com/noramens_',
-    icon: faTwitter
+    icon: faTwitter,
+    'data-testid': 'Twitter'
   }
 ];
 
