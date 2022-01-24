@@ -11,7 +11,7 @@ import { blogs } from '../../helpers/constants';
 const Blog: FC = () => {
   return (
     <>
-      <AboutTitle>Blog Posts</AboutTitle>
+      <AboutTitle data-testid="blog-title">Blog Posts</AboutTitle>
       {blogs.map(blog => (
         <ArticleContainer key={blog.id} borderColor={blog.borderColor}>
           <AboutSubtitle>{blog.title}</AboutSubtitle>

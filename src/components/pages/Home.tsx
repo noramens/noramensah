@@ -6,7 +6,7 @@ const Home: FC = () => {
     <HomeContainer>
       <HomeTitle>Nora Mensah</HomeTitle>
       <HomeSubtitle>Software Engineer</HomeSubtitle>
-      <HomeTagline>
+      <HomeTagline data-testid="tag-line">
         I build web and mobile experiences that <em>transform the way</em> we do
         things.
       </HomeTagline>
