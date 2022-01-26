@@ -1,46 +1,84 @@
-# Getting Started with Create React App
+# noramensah.pages.dev
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Building https://noramensah.pages.dev What's inside? 😅
 
-## Available Scripts
+## Project Description
 
-In the project directory, you can run:
+This project is to give whomever may be interested a background about myself and what I do. Want to take a look? [Let me know what you think](https://noramensah.pages.dev)
 
-### `npm start`
+## Pre-requisites
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Ensure you have the following set up locally:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- [Node](https://nodejs.org)
+- [Git](https://www.atlassian.com/git/tutorials/install-git)
 
-### `npm test`
+## Technologies Used
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This application is built with:
 
-### `npm run build`
+- [React.js](http://reactjs.org)
+- [Typescript](https://www.typescriptlang.org/)
+- [Styled Components](https://styled-components.com)
+- [Jest](https://jestjs.io)
+- [React Testing Library](https://testing-library.com/docs/react-testing-library/intro)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Getting Started
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+These instructions will get you a copy of the project on your local machine for development and testing purposes.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Installation
 
-### `npm run eject`
+Clone the [application](https://github.com/noramens/noramensah.git) using any of the methods stated below.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+> **NOTE: This project uses npm**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**Via SSH**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```sh
+git clone git@github.com:noramens/noramensah.git
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+**Via HTTPS**
 
-## Learn More
+```sh
+git clone https://github.com/noramens/noramensah.git
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Switch to the directory
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```sh
+cd noramensah
+```
+
+### Install the dependencies
+
+Run
+
+```sh
+npm install
+```
+
+### Starting the App
+
+Run the noramensah development server:
+
+```sh
+npm run start
+```
+
+The browser is expected to launch the app on the browser on http://localhost:3000.
+
+### Testing
+
+Run tests to validate that the code changes doesn't degrade the application.
+
+```sh
+npm test
+```
+
+Check the coverage of tests written in the application using:
+
+```sh
+npm test -- --coverage
+```
