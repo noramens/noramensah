@@ -1,7 +1,7 @@
 import '@testing-library/jest-dom/extend-expect';
 import { render, screen } from '@testing-library/react';
 import Footer from '../../components/common/Footer';
-import { socialMedia } from '../../helpers/constants';
+import { socialMedia } from '../../helpers/db';
 
 describe('Footer Component', () => {
   it('should render the footer component', (): void => {

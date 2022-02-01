@@ -72,7 +72,7 @@ export const HomeContainer = styled.main`
 `;
 
 export const HomeTitle = styled.h1`
-  margin-bottom: 6px;
+  margin-bottom: 0.25rem;
   font-weight: bold;
 
   @media screen and (min-width: 520px) {
@@ -97,7 +97,7 @@ export const HomeSubtitle = styled.p`
 export const HomeTagline = styled.p`
   font-size: 1.5rem;
   font-weight: bold;
-  padding: 20px;
+  padding: 1.2rem;
 
   @media screen and (min-width: 520px) {
     font-size: 1.75rem;
@@ -138,7 +138,7 @@ export const Paragraph = styled.p`
   word-wrap: break-word;
   font-kerning: normal;
   color: hsl(0deg 0% 0% / 90%);
-  font-size: 20px;
+  font-size: 1.2rem;
   line-height: 1.7;
   margin-bottom: 1.75rem;
 `;
@@ -155,10 +155,10 @@ export const ParagraphLinks = styled.a`
 
 export const AboutTitle = styled.h1`
   font-family: Playfair Display, serif;
-  font-size: 42px;
+  font-size: 2.5rem;
   text-align: center;
   max-width: 90%;
-  margin: 20px auto;
+  margin: 1rem auto;
 `;
 
 export const ImageWrapper = styled.div`
@@ -175,24 +175,47 @@ export const AboutSubtitle = styled.h2`
   line-height: 1.1;
 `;
 
-export const ArticleContainer = styled.div`
-  width: 60vw;
-  border: 4px solid ${props => props.borderColor};
-  padding: 20px;
+interface ArticleContainerProps {
+  borderColor: string;
+}
+
+export const ArticleContainer = styled.div<ArticleContainerProps>`
+  width: 90vw;
+  border: 0.25rem solid ${props => props.borderColor};
+  padding: 1rem;
   margin: auto;
   text-align: center;
   margin-bottom: 1.7rem;
+
+  @media screen and (min-width: 520px) {
+    width: 60vw;
+  }
 `;
 
-export const ReadMore = styled.a`
+interface ReadMoreProps {
+  buttonColor: string;
+}
+
+export const ReadMore = styled.a<ReadMoreProps>`
   background-color: ${props => props.buttonColor};
-  padding: 5px 15px;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  color: #000;
+`;
+
+interface ReadMoreLinkProps {
+  buttonColor: string;
+}
+
+export const ReadMoreLink = styled(Link)<ReadMoreLinkProps>`
+  background-color: ${props => props.buttonColor};
+  padding: 0.5rem 1rem;
   text-decoration: none;
   color: #000;
 `;
 
 export const img = {
   display: 'block',
-  margin: '0px auto',
+  margin: '0 auto',
   maxWidth: '100%'
 };
